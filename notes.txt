@@ -1,0 +1,50 @@
+REST api
+Basic to good understanding of js
+An appreciation / basic grasp of node.js and MongoDB
+
+API 
+Application Programming Interface
+REST
+REpresentational State Transfer
+
+TV -essential application, want to interact with it you reach for the remote
+Remote is an interface to interact with the application
+
+Youtube application, get a list of videos, youtube provides interface, a series of endpoints
+Use endpoints from our code.
+Instead of human interface you use an application programming interface.
+Use endpoints in the program
+Popular application
+Youtube
+Google maps
+Twitter
+Uber
+
+Use a specific endpoint, make a request and retrieve a list of drivers in a given area.  Return it in json format and display it to our users, on our application in what ever way we want
+
+REST-REpresentational State Transfer
+Architectual style of the web
+A standard/ set of guidelines by which we can structure & create APIs
+REST API have identifiable properties
+They make use of resource based URLs
+Webpage http://www.football.com/scores
+http://www.football.com/teams/arsenal
+Request for resource
+
+JSON- http://www.football.com/api/scores
+http://www.football.com/api/teams/arsenal
+request
+
+They Make use of HTTP Methods
+Send JSON data and allows you resources, 
+REST makes use of HTTP Methods
+GET- Used to retrieve data from the server
+POST- Used to send data to the server
+PUT- Used to update data
+Delete- Used to delete data
+
+They make use of status codes
+200 everything’s ok
+404 means resource cannot be found
+
+Every time we request a website it requesting an api
