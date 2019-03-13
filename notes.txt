@@ -100,3 +100,13 @@ $.ajax({
 Method: “POST”
 Url: “http://www.ninago.com/api/ninjas”
 })
+
+Version4.0
+Dont actually need to use express to make it possible but it makes it easier
+Installed express-npm install express --save
+--save, saves as a dependency
+Require express const express = require(“express”)
+const app = express();
+app.listen(process.env.port || 8080, function(){
+	console.log('now listening for requests');
+})
