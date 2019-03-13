@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/andrewbraunsdorf/APInn/issues"
   },
-  "homepage": "https://github.com/andrewbraunsdorf/APInn#readme"
+  "homepage": "https://github.com/andrewbraunsdorf/APInn#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
 }

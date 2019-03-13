@@ -60,3 +60,43 @@ Give it the resource it wants go to express, then database, then back to express
 MongoDB to NodeJS and Express app then puts the endpoints to Front-end, mobile app, or other website
 
 Other website is sending get request to node js.  Get list from mongo db and send them back in json format and allows them to be used in the way the developer wants
+
+Version3.0
+HTTP methods 
+A way of telling the server what type of request we are making
+GET
+POST
+PUT 
+DELETE
+
+Provide a list of users available
+Return the json to mobile  application
+List of users, name rank available
+Goes from front end application make a request to (API) to node/express then goes to database/ mongoDB,  and proceeds to 3rd party app
+
+Post creates new data
+Get- reading/ retrieving a list 
+PUT -update/ edit an existing ninja
+Delete- delete data from the db
+Db- database
+
+API Routes- Certain routes or endpoints API exposes to us
+GET and POST
+http://www.ninago.com/api/ninjas
+
+PUT/Delete
+http://www.ninago.com/api/ninjas/id
+Id- represents the specific record or ninja we want to update
+
+What type of request we are making.  Using jquery, using end points when it reaches the server takes the data and adds it to the database.  Has same url but adds different data to it.
+
+Using jQuery
+$.ajax({
+Method: “POST”,
+Url: “http://www.ninago.com/api/ninjas”,
+Data: { name: “Ganash”, rank: “Red Belt” }
+
+$.ajax({
+Method: “POST”
+Url: “http://www.ninago.com/api/ninjas”
+})
