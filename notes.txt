@@ -48,3 +48,15 @@ They make use of status codes
 404 means resource cannot be found
 
 Every time we request a website it requesting an api
+
+Version2.0
+Installed npm init
+To add package.json
+
+Making an application using express
+Node express app running express
+Running waiting for requests to be made to it.
+Give it the resource it wants go to express, then database, then back to express and back to website
+MongoDB to NodeJS and Express app then puts the endpoints to Front-end, mobile app, or other website
+
+Other website is sending get request to node js.  Get list from mongo db and send them back in json format and allows them to be used in the way the developer wants
