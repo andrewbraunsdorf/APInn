@@ -110,3 +110,26 @@ const app = express();
 app.listen(process.env.port || 8080, function(){
 	console.log('now listening for requests');
 })
+
+
+Version5.0
+Handle requests in express
+Set up routes and create route handlers
+When we created app variable, it handed over get post delete
+app.get("/"); is listening for get requests
+
+Somebody makes a get request it can respond in the function
+app.get("/", function(){
+	
+});
+Still waiting for a response when browser is spinning...you have to send a response
+Send a request and the server then responds to the client
+Have to send or end the request
+End request by using:
+res.end();
+Can send data by using:
+res.send({ name: 'Yoshi'});
+Have method, route and then call back function
+
+GET and POST use different URLs
+How we handle a request
