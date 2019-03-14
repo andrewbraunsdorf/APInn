@@ -159,3 +159,6 @@ router.put('/ninjas/id', function(req, res){
 Id is parameter
 
 Inside app.use add /api before routes to add app.use('/api', routes);
+
+MongoDB running in background then node.js and express App corresponding to Front-end Mobile App and Other Website
+Need to stimulate requests for Post Put and Delete
