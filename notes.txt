@@ -162,3 +162,17 @@ Inside app.use add /api before routes to add app.use('/api', routes);
 
 MongoDB running in background then node.js and express App corresponding to Front-end Mobile App and Other Website
 Need to stimulate requests for Post Put and Delete
+
+
+version 7.0
+Send data in json
+Send request in post body
+Using postman set to post go to body and select raw
+Received back POST request
+Node js and express dont let us store the data anywhere
+We need to install body parser
+Body parser is middleware
+Request goes to express app.  Handles it and gives to route handler (does something with the request) and sends the response.
+Middleware is handled after request gets sent and before it gets sent out
+If we want to use body parser we use it as the request gets received
+Attached to request object
