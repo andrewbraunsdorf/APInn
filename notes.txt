@@ -133,3 +133,29 @@ Have method, route and then call back function
 
 GET and POST use different URLs
 How we handle a request
+
+Version6.0
+Installed- npm install nodemon --save-dev
+Automatically restarts program when saved
+const router = express.Router();
+This is our router object.  We can store our route handlers onto router
+
+
+Separate routes into logical components
+Using express route class
+Need express in api file
+Need to enable router by “const router = express.Router();”
+
+Exports routes to use in another file
+Export using “module.exports = router;”
+How do we say to our express apps we want to use these routes 
+We can use a method called use
+Used const routes = require("./routes/api") in index.js then called the function via app.use(routes);
+
+In 
+router.put('/ninjas/id', function(req, res){
+	res.send({type: 'PUT'});
+});
+Id is parameter
+
+Inside app.use add /api before routes to add app.use('/api', routes);
